@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo basico de ARIA</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>Mi sitio, mas accesible</h1>
+  </header>
+
+  <nav role="navigation" aria-label="Menu principal">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <section aria-label="Seccion principal">
+      <h2>Bienvenido</h2>
+      <p>Contenido accesible usando roles y etiquetas semanticas.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Sitio accesible</p>
+  </footer>
+
+  <!-- Comentario: role y aria-label ayudan a lectores de pantalla a identificar secciones y su proposito, facilitando la accesibilidad de la pagina web :)  -->
+</body>
+</html>
