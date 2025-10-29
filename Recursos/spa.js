@@ -1,3 +1,4 @@
+console.log("Script SPA cargado correctamente.");
 document.addEventListener("DOMContentLoaded", function() {
   const buttons = document.querySelectorAll("nav button");
   const sections = document.querySelectorAll("main section");
@@ -11,4 +12,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-// Este script simple permite la navegacion entre secciones en una SPA (Single Page Application).

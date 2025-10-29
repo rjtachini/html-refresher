@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SPA Basico</title>
+  <link rel="stylesheet" href="../Recursos/Estilos.css">
+  <script src="../Recursos/cambiarColorH1.js" defer></script>
+  <script src="../Recursos/spa.js" defer></script>
+  
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Aplicacion SPA Basica</h1>
+    <nav>
+      <button data-section="home">Inicio</button>
+      <button data-section="about">Acerca</button>
+      <button data-section="contact">Contacto</button>
+    </nav>
+    <button id="btn-cambiar">Cambiar color del titulo</button>
+  </header>
+
+  <main id="app">
+  <section id="home">
+    <h2>Bienvenido a la SPA</h2>
+    <p>Esta es la seccion principal donde los usuarios encuentran informacion destacada.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.</p>
+    <img src="https://placehold.co/400" alt="Imagen ilustrativa home" style="width:100%;margin-top:20px;">
+  </section>
+
+  <section id="about" style="display:none;">
+    <h2>Acerca de nosotros</h2>
+    <p>En esta seccion describimos la empresa, el equipo y nuestra filosofia.</p>
+    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+    <p>Phasellus volutpat metus eget egestas rhoncus. Nulla facilisi. Donec vulputate interdum sollicitudin.</p>
+    <img src="https://placehold.co/400" alt="Imagen ilustrativa about" style="width:100%;margin-top:20px;">
+  </section>
+
+  <section id="contact" style="display:none;">
+    <h2>Contacto</h2>
+    <p>Aqui los usuarios pueden encontrar formas de comunicarse con nosotros.</p>
+    <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="tu@email.com"><br><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aqui"></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <img src="https://placehold.co/400" alt="Imagen ilustrativa contacto" style="width:100%;margin-top:20px;">
+  </section>
+</main>
+
+
+  <!-- Comentario: Estructura limpia preparada para manejar secciones dinamicamente con JS -->
+</body>
+</html>
